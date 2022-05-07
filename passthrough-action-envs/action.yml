@@ -1,0 +1,10 @@
+name: passthrough-action-envs
+description: |
+  Passes through some environmental variables not available in inline steps.
+author: lhwdev
+runs:
+  using: "node12" # ~~no Deno?~~
+  main: "action.js"
+branding:
+  icon: activity
+  color: green
