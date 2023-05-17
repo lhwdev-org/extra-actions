@@ -3,7 +3,7 @@ description: |
   Passes through some environmental variables not available in inline steps.
 author: lhwdev
 runs:
-  using: "node12" # ~~no Deno?~~
+  using: "node16" # ~~no Deno?~~
   main: "action.js"
 branding:
   icon: activity
